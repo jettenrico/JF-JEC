@@ -20,7 +20,7 @@ public class Soal2 {
             med=(low+high)/2;
 
             if(keyword==arrInt[med]){
-                System.out.println(keyword+" Founded in position "+(med+1)+" and Index "+med);
+                System.out.println(keyword+" Founded in Position "+(med+1)+" and Index "+med);
                 status=true;
                 break;
             }else {
