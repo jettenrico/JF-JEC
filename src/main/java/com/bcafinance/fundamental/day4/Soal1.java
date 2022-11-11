@@ -12,7 +12,7 @@ public class Soal1 {
     public static void main(String[] args) {
         int[] arrInt = {3,8,5,2,1,9,10};
         int intB = 11;
-        Boolean isFound = true;
+        boolean isFound = true;
 
         for(int i=0;i<arrInt.length;i++){
             if(intB==arrInt[i]){

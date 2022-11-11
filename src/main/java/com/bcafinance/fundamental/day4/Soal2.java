@@ -15,7 +15,7 @@ public class Soal2 {
         int low = 0;
         int high = arrInt.length - 1;
         int med = 0;
-        Boolean status = false;
+        boolean status = false;
         while (low<=high){
             med=(low+high)/2;
 
@@ -32,7 +32,7 @@ public class Soal2 {
             }
         }
 
-        if(status==false){
+        if(!status){
             System.out.println(keyword+" Not Found!!");
         }
     }
