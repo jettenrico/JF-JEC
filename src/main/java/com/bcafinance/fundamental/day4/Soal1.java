@@ -8,6 +8,8 @@ Created on 11/10/2022
 Version 1.0
 */
 
+import java.util.Random;
+
 public class Soal1 {
     public static void main(String[] args) {
         int[] arrInt = {3,8,5,2,1,9,10};
@@ -16,7 +18,7 @@ public class Soal1 {
 
         for(int i=0;i<arrInt.length;i++){
             if(intB==arrInt[i]){
-                System.out.println("Angka "+intB+" Sudah ditemukan pada index ke "+i);
+                System.out.println("Angka "+intB+" Sudah ditemukan pada index ake "+i);
                 isFound = false;
             }
         }
